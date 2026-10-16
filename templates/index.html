@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flask side</title>
+</head>
+<body>
+    <p>flask side velkommen template</p>
+
+    <h1>{{ navn }}</h1>
+    <p>"skole:" {{skole}}</p>
+    <p>alder:</p>
+    <p>språk {{favorittspråk}}</p>
+    <br>
+    <br>
+    {% if poeng <= 50%}
+    <p>crazy bra</p>
+    {% else %}
+    <p>loser</p>
+    {% endif %}
+</body>
+</html>
